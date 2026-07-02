@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class MergeOverlappingIntervals {
+ class MergeOverlappingIntervals {
     public static void main(String[] args) {
         List<List<Integer>> interval = new ArrayList<>();
         interval.add(Arrays.asList(1,3));
