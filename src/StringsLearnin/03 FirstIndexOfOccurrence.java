@@ -5,6 +5,11 @@ package StringsLearnin;
         String str = "sadbutsad";
         String needle = "sad";
         System.out.println(getFirstOccurrence(str, needle));
+        System.out.println(getByOptimal(str, needle));
+    }
+
+    public static int getByOptimal(String haystack, String needle) {
+        return haystack.indexOf(needle);
     }
 
     public static int getFirstOccurrence(String haystack, String needle) {
